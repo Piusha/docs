@@ -8,7 +8,9 @@
 
 In order to run serverless app in local  you need to import serverless-offline npm pacckage. After that in command line you can execute
 
-    $serverless invoke local -f <function name> -d <event object data>
+	$ npm install serverless-offline --save-dev
+
+    $ serverless invoke local -f <function name> -d <event object data>
     
 - -f = function name
 - -d = Event data String or Object as a String
